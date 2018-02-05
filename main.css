@@ -1,0 +1,214 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: 808080;
+
+  color: #ffffff; 
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: ;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-sm-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: rgb(125,125,285);
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: rgb(000,195,285);
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+.nav {
+  background-color:rgb(125,165,225);
+  max-width: 25%;
+  min-width: 140px;
+  flex: 4;
+  color:000000;
+}
+
+.nav{
+  padding-right: 32px;
+  padding-top:1px;
+}
+a{
+	font-size:14px;
+	color:rgb(0,0,0);
+}
+h1 {
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color:rgb(70,130,180);
+	font-size: 48px;
+}
+.hero {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	padding: 250px ;
+	margin: 2px;
+ /* background-image:url("http://www.jecrcfoundation.com/images/JECRC-Foundation2.jpg");*/
+  background-color:808080;
+  color:#ffffff
+}
+.gallery {
+  margin-top: 20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
+
+
+.container {
+  display: flex;
+}
+
+.main {
+  padding-left: 30px;
+  min-width: wrap;
+}
+
+.nav1 {
+  background-color: #4682B44;
+  max-width: 25%;
+  min-width: 140px;
+  flex: 1;
+}
+
+.nav1  a{
+  padding-left: 20px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
